@@ -1,0 +1,4 @@
+# Keep the schema files LF so they are byte-stable across platforms and match the
+# mirrors + freshness check in wmoop.doc (schema/check_canonical.py).
+*.json text eol=lf
+*.xsd  text eol=lf
