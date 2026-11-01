@@ -14,8 +14,9 @@ schema:
 | [`wml.xsd`](wml.xsd) | The equivalent **W3C XML Schema** for the WML-in-XML serialization. |
 
 Both encode the same rules — identifier shapes (QNames), concept/role/datatype/enumeration/
-interface structure, cardinalities, value constraints, and required provenance. Use whichever
-matches your toolchain.
+interface structure, classification schemes and sourced `classified_as` claims (ADR 0001),
+reified associations (D9), per-slot `completeness` (D2), cardinalities, value constraints, and
+required provenance. Use whichever matches your toolchain.
 
 > This is part of **WMOOP — World Map Object-Oriented Programming**: one shared, language-neutral,
 > object-oriented model of the real world, from which idiomatic code is generated in many languages.
